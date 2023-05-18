@@ -2,8 +2,8 @@ body {
     font-family: roboto, sans-serif;
 }
 
+/* this is the header container which contains the logo and nav links */
 .header {
-    
     background-color: #1F2937;
 }
 
@@ -16,8 +16,10 @@ ul {
     /* removes list bullets */
     list-style: none;
 }
-li{
-    /* changes the color of the list items */
+a {
+    /* changes the color of the anchor element items */
     color: #E5E7EB;
     font-size: 18px;
+    /* removes the line from under the links */
+    text-decoration: none;
 }
