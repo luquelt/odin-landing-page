@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding-bottom: 100px;
+    align-items: center;
 }
 
 .header-logo {
@@ -35,7 +36,9 @@ a {
 .hero-section {
     background-color: #1F2937;
     display: flex;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
 }
 
 .text-side {
@@ -43,22 +46,40 @@ a {
     flex-direction: column;
     gap: 10px;
     margin-left: 250px;
-    margin-right: 250px;
     max-width: 400px;
 }
 
 .hero-text {
     font-size: 48px;
     color: #F9FAF8;
+    font-weight: 800;
     
 }
 .hero-subtext {
     color: #E5E7EB;
+    display: flex;
+    
 }
 button {
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     color:#F9FAF8;
-    max-width: 75px;
+    max-width: 150px;
+    border: none;
+    font-weight: 600;
+}
+
+img {
+    height: 200px;
+    width: 400px;
+    object-fit: cover;
+    margin-right: 250px;
+}
+
+.info-section {
+    background-color: white;
 }
