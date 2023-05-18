@@ -1,3 +1,23 @@
 body {
     font-family: roboto, sans-serif;
 }
+
+.header {
+    
+    background-color: #1F2937;
+}
+
+.header-logo {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+ul {
+    /* removes list bullets */
+    list-style: none;
+}
+li{
+    /* changes the color of the list items */
+    color: #E5E7EB;
+    font-size: 18px;
+}
