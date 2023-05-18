@@ -1,20 +1,27 @@
 body {
     font-family: roboto, sans-serif;
+    background-color: #1F2937;
 }
 
 /* this is the header container which contains the logo and nav links */
 .header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header-logo {
     color: #F9FAF8;
     font-size: 24px;
+    margin-left: 250px;
 }
 
 ul {
     /* removes list bullets */
     list-style: none;
+    display: flex;
+    gap: 20px;
+    margin-right: 250px;
 }
 a {
     /* changes the color of the anchor element items */
@@ -22,4 +29,21 @@ a {
     font-size: 18px;
     /* removes the line from under the links */
     text-decoration: none;
+}
+
+.hero-section {
+    background-color: #1F2937; 
+}
+
+.hero-text {
+    font-size: 48px;
+    color: #F9FAF8
+}
+.hero-subtext {
+    color: #E5E7EB;
+}
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    color:#F9FAF8;
 }
