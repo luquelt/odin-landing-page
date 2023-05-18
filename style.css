@@ -8,6 +8,7 @@ body {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    padding-bottom: 100px;
 }
 
 .header-logo {
@@ -32,12 +33,24 @@ a {
 }
 
 .hero-section {
-    background-color: #1F2937; 
+    background-color: #1F2937;
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.text-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 250px;
+    margin-right: 250px;
+    max-width: 400px;
 }
 
 .hero-text {
     font-size: 48px;
-    color: #F9FAF8
+    color: #F9FAF8;
+    
 }
 .hero-subtext {
     color: #E5E7EB;
@@ -45,5 +58,7 @@ a {
 button {
     background-color: #3882F6;
     border-radius: 5px;
+    padding: 5px;
     color:#F9FAF8;
+    max-width: 75px;
 }
