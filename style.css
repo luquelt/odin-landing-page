@@ -43,6 +43,7 @@ a {
     align-items: center;
     margin-left: 200px; 
     margin-right: 200px;
+    padding-bottom: 100px;
 }
 
 .text-side {
@@ -166,8 +167,8 @@ p {
     margin-right: 200px;
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-evenly;
+    align-items: center;
     gap: 150px;
     border-radius: 10px;
     padding-top: 40px;
@@ -178,8 +179,12 @@ p {
 .texty {
     color:#F9FAF8;
     margin-left: 0px;
-
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     
+    max-height: 200px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -192,9 +197,9 @@ h3 {
 
 .butt2 {
     background-color: #3882F6;
-    border-radius: 5px;
-    padding-left: 25px;
-    padding-right: 25px;
+    border-radius: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
     color:#F9FAF8;
